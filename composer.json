@@ -1,6 +1,6 @@
 {
-  "name": "lastdragon-ru/lara-asp-core",
-  "homepage": "https://github.com/LastDragon-ru/lara-asp",
+  "name": "calvinfa/lara-asp-core",
+  "homepage": "https://github.com/calvinfa/lara-asp-core",
   "description": "The Awesome Set of Packages for Laravel - The Core.",
   "readme": "README.md",
   "license": "MIT",
@@ -10,19 +10,13 @@
     "laravel",
     "php"
   ],
-  "support": {
-    "issues": "https://github.com/LastDragon-ru/lara-asp/issues",
-    "source": "https://github.com/LastDragon-ru/lara-asp",
-    "forum": "https://github.com/LastDragon-ru/lara-asp/discussions"
-  },
   "require": {
-    "php": ">=8.0.0",
+    "php": ">=7.4.1",
     "ext-mbstring": "*",
-    "laravel/framework": "^8.22.1"
+    "laravel/framework": "^7.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5.0",
-    "lastdragon-ru/lara-asp-testing": "self.version",
     "orchestra/testbench": "^6.9.0"
   },
   "suggest": {
